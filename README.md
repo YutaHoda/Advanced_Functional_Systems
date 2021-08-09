@@ -1,9 +1,13 @@
 # Advanced_Functional_Systems
 
+## Operation Environment
+Ubuntu 18.04
+ROS melodic
+
 ## Install & Build
 ```
-mkdir -p Advanced_Functional_Systems_ws/src
-cd ~/Advanced_Functional_Systems_ws/src
+mkdir -p catkin_ws/src
+cd ~/catkin_ws/src
 git clone git@github.com:YutaHoda/Advanced_Functional_Systems.git
 
 cd .. 
@@ -11,6 +15,8 @@ catkin_make -DCMAKE_BUILD_TYPE=Release
 ```
 
 ## How to use
+インストール時に，catkin_ws以外にクローンした場合はそのワークスペースにbashを通してから実行する必要がある．
+
 ### 1 MoveIt!を使ったマニピュレータの制御
 #### 1.1 ROS/MoveIt!によるマニピュレータの制御
 使用するマニピュレータのモデルをRvizで確認する．下記コマンドを実行し，マニピュレータモデルの操作GUI及びRvizを起動する．
