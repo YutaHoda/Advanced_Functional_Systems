@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/megken/catkin_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/megken/catkin_ws/src/eagleye/eagleye_core/coordinate/include/**",
+        "/home/megken/catkin_ws/src/eagleye/eagleye_util/fix2kml/include/**",
+        "/home/megken/catkin_ws/src/eagleye/eagleye_core/navigation/include/**",
+        "/home/megken/catkin_ws/src/eagleye/eagleye_util/nmea2fix/include/**",
+        "/home/megken/catkin_ws/src/nmea_comms/include/**",
+        "/home/megken/catkin_ws/src/odom_listener/include/**",
+        "/home/megken/catkin_ws/src/rtklib_ros_bridge/rtklib_bridge/include/**",
+        "/home/megken/catkin_ws/src/sbf_ros_bridge/include/**",
+        "/home/megken/catkin_ws/src/waypoints_publish/include/**",
+        "/home/megken/catkin_ws/src/wheel_robot_gmapping/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}
